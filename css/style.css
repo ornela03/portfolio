@@ -1,0 +1,74 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body{
+   color: #333;
+   font-family: 'Poppins', 'Montserrat', Helvetica, arial sans-serif;
+   font-size: 16px;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   font-weight: 400;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   word-wrap: break-word;
+ }
+ header{
+   height: 88px;
+   padding: 11px;
+ }
+
+
+ /* FUENTES
+--------------------------------------------------*/
+ .font-yellow {
+   color: #ffa600;
+}
+.text-grey {
+   color: #999999 !important;
+}
+
+/* LISTAS
+--------------------------------------------------*/
+li {
+   list-style: none;
+}
+
+/* ICONOS REDES
+--------------------------------------------------*/
+.ion-social-instagram:before {
+   content: "\f351";
+}
+
+
+ /* SECTION DATOS PERSONALES
+--------------------------------------------------*/
+ .datos-section {
+   padding-top: 200px;
+   position: relative;
+   background-size: cover;
+   z-index: 1;
+   background-image: url(../images/fondo-head.png);
+}
+.datos {
+   padding: 0 20px;
+   margin-top: 100px;
+   text-align: center;
+   background: #fff;
+}
+.datos .img-perfil {
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   top: -100px;
+   margin-bottom: -70px;
+}
+
+
+/* SECTION FOOTER
+--------------------------------------------------*/
+.footer-section {
+   padding-top: 100px;
+}
